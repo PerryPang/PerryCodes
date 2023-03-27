@@ -32,10 +32,9 @@ public class TimmerTest {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         // 2. 创建GET请求方法实例
         List<NameValuePair> params = new ArrayList<>();
-        params.add(new BasicNameValuePair("key","1e846c0540563296d8b6046ac3dddde2"));
         params.add(new BasicNameValuePair("node_ids","31,32"));
         params.add(new BasicNameValuePair("host","www.baidu.com"));
-        HttpEntity entity = HttpClientUtil.getResponse("https://api.boce.com/v3/task/create/hijack",params);
+        HttpEntity entity = HttpClientUtil.getResponse("https://api.boce.com/v3/task/create/hijack?key="+ TTask.API_KEY,params);
         if(entity != null){
             try {
                 String result = EntityUtils.toString(entity);

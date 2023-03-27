@@ -42,7 +42,7 @@ public class TTask implements Job {
     /**
      * 劫持检测url
      */
-    String apiUrl = "https://api.boce.com/v3/task/create/hijack";
+    String apiUrl = "https://api.boce.com/v3/task/create/hijack?key=" + API_KEY;
 
     public static final int STATUS_NORMAL = 0;
     public static final int STATUS_RUNNING = 1;
@@ -102,18 +102,16 @@ public class TTask implements Job {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         // 2. 创建GET请求方法实例
         List<NameValuePair> params = new ArrayList<>();
-        params.add(new BasicNameValuePair("key",API_KEY));
-        params.add(new BasicNameValuePair("node_ids",nodes));
-        params.add(new BasicNameValuePair("host",url));
-        HttpEntity entity = HttpClientUtil.getResponse(apiUrl,params);
-        if(entity != null){
+        String reqUrl = apiUrl + "&node_ids=" + nodes + "&host" + url;
+        HttpEntity entity = HttpClientUtil.getResponse(reqUrl, params);
+        if (entity != null) {
             try {
                 String result = EntityUtils.toString(entity);
                 JSONObject resultJson = JSONObject.parseObject(result);
                 Object data = resultJson.get("data");
-                String taskId = data ==null?"":((JSONObject)data).get("id").toString();
-                if(StringUtils.hasText(taskId)){
-                    FeatchResultJob.taskIdList.add(id+","+taskId);
+                String taskId = data == null ? "" : ((JSONObject) data).get("id").toString();
+                if (StringUtils.hasText(taskId)) {
+                    FeatchResultJob.taskIdList.add(id + "," + taskId);
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
