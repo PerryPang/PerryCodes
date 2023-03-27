@@ -1,0 +1,17 @@
+D:\newworkspace\NetMonitor\src\main\java\com\ak\service\CrudService.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\entity\TDictionary.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\annotation\MyBatisDao.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\entity\BaseEntity.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\service\impl\ApiService.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\service\ITaskService.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\dao\CrudDao.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\service\impl\TaskService.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\service\BaseService.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\controller\TTaskController.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\dao\BaseDao.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\mapper\TDictionaryMapper.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\service\impl\TDictionaryService.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\mapper\TaskMapper.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\service\ITDictionaryService.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\timmer\TimmerTest.java
+D:\newworkspace\NetMonitor\src\main\java\com\ak\entity\TTask.java
