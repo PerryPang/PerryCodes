@@ -40,6 +40,7 @@ public class TimmerTest {
             try {
                 String result = EntityUtils.toString(entity);
                 JSONObject resultJson = JSONObject.parseObject(result);
+                System.out.println(resultJson);
                 Object data = resultJson.get("data");
                 String taskId = data ==null?"":((JSONObject)data).get("id").toString();
                 if(StringUtils.hasText(taskId)){

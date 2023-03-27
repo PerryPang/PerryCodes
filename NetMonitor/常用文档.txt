@@ -1,0 +1,69 @@
+----------------------------------测试环境
+pptest
+!plj1***
+后台：
+perry1235
+123456
+--VPN
+3.1.208.17
+simon
+Ipsmr4bjH18weDhv
+----------------------------------邮箱
+perry@sixthnet.com
+gNX9*0B2%oO@Uwyu
+----------------------------------禅道
+禅道：http://cdao.one2.cc/
+账号：perry
+密码：perry123!
+----------------------------------环境搭建
+1.添加启动配置
+-Dspring.profiles.active=dev -Dnacos.config.server-addr=10.210.0.91:8080 -Dspring.application.name=lottery-login-api-*perry14
+2.连接openvpn,搜OpenVPN Connect下载
+3.1.208.17
+simon
+Ipsmr4bjH18weDhv
+4.
+
+----------------------------------RTX
+Perry   88888888
+----------------------------------开发环境
+--VPN
+3.1.108.7
+user: weiliao
+passwd: frNrsvCxxMEic8V4
+--自动发布
+dev 123456
+--总后台地址
+http://10.210.0.160:8992/#/
+perry  123456
+--git
+http://18.136.239.76:8085/users/sign_in perry !plj1987***
+--日志
+http://18.141.67.5:9000/gettingstarted
+admin   admin
+--必赢棋牌项目日志
+http://18.142.250.75:9000/gettingstarted
+admin admin
+必盈开发环境总后台地址：http://13.214.168.72:8992/#/
+账号：各自英文名（lem的除外，lem账号是lem01）  密码：123456
+必盈开发环境商户后台地址：http://13.214.168.72:8991/#/
+账号：各自英文名 + 1500（比如lem1500） 密码：123456
+
+总后台：http://13.229.45.162:8992/#/
+英文名 123456
+商户后台：http://13.229.45.162:8991/#/
+英文名加500（比如aaron500） 123456
+H5: https://54.255.226.111/
+运维后台： http://13.229.45.162:8125/#/
+sqlapplay@op sqlapplay@op
+graylog: http://13.212.199.12:9000/search
+admin admin
+Nacos: http://54.169.52.96:8848/nacos/#/
+nacos 6hJ2bqVvvhDxeUx
+
+分享后台：http://13.251.153.178:7881/#/home
+无限代后台：http://13.251.153.178:7880/#/home
+账号就是彩票的H5的账号和密码
+----------------------------------劫持监控
+13151109062
+Qq1314520.

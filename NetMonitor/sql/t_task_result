@@ -1,0 +1,1 @@
+INSERT INTO `t_task_result` VALUES (1, 1, '1', 1, '1');
